@@ -13,13 +13,13 @@ int main()
 {
     FILE *fp = NULL;
 
-    fp = fopen("/home/acumen2/.friend", "wt+");
+    fp = fopen("/home/lhl/.friend", "wt+");
     fprintf(fp, "%s\r\n", "user1");
     fprintf(fp, "%s\r\n", "user2");
-    fprintf(fp, "%s\r\n", "acumen");
+    fprintf(fp, "%s\r\n", "lhl");
     fclose(fp);
 
-    fp = fopen("/home/acumen2/.secret", "wt+");
+    fp = fopen("/home/lhl/.secret", "wt+");
     fprintf(fp, "%s\r\n", "Hello My Friend.");
     fclose(fp);
 }

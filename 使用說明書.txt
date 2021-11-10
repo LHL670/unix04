@@ -1,0 +1,8 @@
+給root密碼.創另一個使用者(google passwd跟adduser)
+在user2下創建一個desktop 然後把friend_secret.c丟進去 friend_secret.c裡面要改路徑 改成你的。
+用user2 gcc -g -c friend_secret.c ,then ./friend_secret
+換成root(su -) (make)
+用user1 cd /tmp 然後 ./read_others 03
+用user2 cat ./friends 跟 ./secret
+在不行的話..... 我應該也忘了 而且我是抱腿的 ㄏㄏ 你們的大腿應該看得懂:D
+我是用VMware跟MobaX
